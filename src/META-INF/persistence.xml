@@ -27,6 +27,8 @@
 
 			<property name="hibernate.search.default.indexBase" value="/tmp/lucene/indexes" />
 			
+			<!--property name="hibernate.search.indexing_strategy" value="manual" /-->
+			
 		</properties>
 	</persistence-unit>
 </persistence>
