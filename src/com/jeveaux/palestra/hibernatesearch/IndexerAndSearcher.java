@@ -97,9 +97,9 @@ public class IndexerAndSearcher {
 		IndexerAndSearcher indexerAndSearch = new IndexerAndSearcher();
 		
 		// Preenche o banco de dados com alguns registros
-		//indexerAndSearch.preencherBaseDeDados();
+		indexerAndSearch.preencherBaseDeDados();
 		try {
-			String[] fields = new String[]{"nome"};
+			String[] fields = new String[]{"nome", "descricao"};
 			indexerAndSearch.search("Café", fields);
 		} catch (ParseException e) {
 			e.printStackTrace();
